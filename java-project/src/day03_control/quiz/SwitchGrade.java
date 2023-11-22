@@ -35,7 +35,7 @@ package day03_control.quiz;
 
 import java.util.Scanner;
 
-public class ex01_switchTest {
+public class SwitchGrade {
 	public static void main(String[] args) {
 		System.out.println("input score(k,e,c) = ");
 		Scanner sc = new Scanner(System.in); //변수를 scanner
@@ -44,6 +44,5 @@ public class ex01_switchTest {
 		double avg = (double)total/3; 
 		char grade; 
 
-	
 	}
 }

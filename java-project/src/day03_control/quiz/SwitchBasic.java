@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ex01_swtich {
+public class SwitchBasic {
 	public static void main(String[] args) {
 		System.out.println("당신의 포인트 점수는 (1~3점) input : ");
 		int point = new Scanner(System.in).nextInt();

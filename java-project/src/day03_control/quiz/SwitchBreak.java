@@ -3,7 +3,7 @@ package day03_control.quiz;
 
 import java.util.Scanner;
 
-public class ex01_switchBreak {
+public class SwitchBreak {
 	public static void main(String[] args) {
 		System.out.println("도시를 선택하세요(s,d,b,j) = ");
 		
@@ -34,7 +34,7 @@ package day03_control.quiz;
 
 import java.util.Scanner;
 
-public class ex01_switchBreak {
+public class SwitchBreak {
 	public static void main(String[] args) {
 		System.out.println("point = ");
 		

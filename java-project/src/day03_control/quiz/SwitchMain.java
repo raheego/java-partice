@@ -38,7 +38,7 @@ package day03_control.quiz;
 
 import java.util.Scanner;
 
-public class ex01_switchMain {
+public class SwitchMain {
 	public static void main(String[] args) {
 		System.out.println("도시를 선택하세요(s,d,b,j) = ");
 		
