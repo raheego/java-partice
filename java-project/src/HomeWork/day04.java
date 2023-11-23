@@ -11,35 +11,33 @@ import java.util.Scanner;
 
 public class day04 {
 	public static void main(String[] args) {
-		int sum = 0; 
+		int sum1 = 0; 
 		for( int i=1; i<=6; i++ ) {
 			for(int j=1; j<i; j++) {
-				sum += j;
+				sum1 += j;
 			}
 		}	
 		System.out.print(sum);
 		
-	
-		
-		for( int i=1; i<=10; i ++ ) {
-			if( i % 2 != 0 ) {
-				sum -= i;
-			} else {
-				sum += i;
-			}
-		}
-		System.out.print(sum);
-		
+	   int sum2 = 0;
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 != 0) {
+                sum2 -= i;
+            } else {
+                sum2 += i;
+            }
+        }
+        System.out.print(sum2);
 		
 		
-		double sum2 = 0; 
+		double sum3 = 0; 
 		for(int i=1; i<=9; i++ ) { // 분자 분모가 있다. 
-			sum2 += (double)i/(i+1); // 형변환 해줘야 함 i는 int 니깐
+			sum3 += (double)i/(i+1); // 형변환 해줘야 함 i는 int 니깐
 		}
 		System.out.printf("%.2f",sum2); // 소숫점 2번째 자리
 		
 
-		
+	
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("정수 3개를 입력하세요:");
 		int num1 = scanner.nextInt();
@@ -47,23 +45,23 @@ public class day04 {
 		int num3 = scanner.nextInt();
 		
 		  if (num1 >= num2 && num1 >= num3) {
-	            if (num2 >= num3) {
-	                System.out.println(num1 + " " + num2+ " " + num3);
-	            } else {
-	                System.out.println(num1 + " " + num3 + " " + num2);
-	            }
-	        } else if (num2 >= num1 && num2 >= num3) {
-	            if (num1 >= num3) {
-	                System.out.println(num2 + " " + num1 + " " + num3);
-	            } else {
-	                System.out.println(num2 + " " + num3 + " " + num1);
-	            }
-	        } else {
-	            if (num1 >= num2) {
-	                System.out.println(num3 + " " + num1 + " " + num2);
-	            } else {
-	                System.out.println(num3 + " " + num2 + " " + num1);
-	            }
-	        }
+            if (num2 >= num3) {
+                System.out.println(num1 + " " + num2+ " " + num3);
+            } else {
+                System.out.println(num1 + " " + num3 + " " + num2);
+            }
+        } else if (num2 >= num1 && num2 >= num3) {
+            if (num1 >= num3) {
+                System.out.println(num2 + " " + num1 + " " + num3);
+            } else {
+                System.out.println(num2 + " " + num3 + " " + num1);
+            }
+        } else {
+            if (num1 >= num2) {
+                System.out.println(num3 + " " + num1 + " " + num2);
+            } else {
+                System.out.println(num3 + " " + num2 + " " + num1);
+            }
+        }
 	}
 }
