@@ -29,7 +29,8 @@ public class day04 {
         }
         System.out.print(sum2);
 		
-		
+
+        
 		double sum3 = 0; 
 		for(int i=1; i<=9; i++ ) { // 분자 분모가 있다. 
 			sum3 += (double)i/(i+1); // 형변환 해줘야 함 i는 int 니깐
