@@ -1,4 +1,4 @@
-package day06.arr03;
+package day06.array03;
 
 public class Quiz {
 	public static void main(String[] args) {
