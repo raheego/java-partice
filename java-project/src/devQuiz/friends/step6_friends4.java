@@ -1,4 +1,4 @@
-package devQuiz;
+package devQuiz.friends;
 
 import java.util.Scanner;
 // gpt private 전역변수를 이용해서 풀기 

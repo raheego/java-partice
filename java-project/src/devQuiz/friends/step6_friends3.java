@@ -1,4 +1,4 @@
-package devQuiz;
+package devQuiz.friends;
 
 import java.util.Scanner;
 

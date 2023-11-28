@@ -11,11 +11,6 @@ public class step0_Score_teacher {
 	String name = sc.nextLine();
 	
 	// 점수 : 0~100 점까지만 입력 받게 처리 
-//	  do {
-//			System.out.print("kor, eng, com (0~100점까지) score = ");
-//			kor = sc.nextInt();		eng = sc.nextInt();			com = sc.nextInt();
-//	  } while ( (kor < 0 || kor > 100) || eng < 0 || eng > 100 || com < 0 || com > 100 );
-	
 	 do {
 			System.out.print("국어 점수를 입력하세요(0~100) = ");
 			kor = sc.nextInt();	
