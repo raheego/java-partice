@@ -1,4 +1,4 @@
-package day07.opp.ex;
+package day07.oop.ex;
 
 public class Circle {
 	private int x , y, r; // 자동화 하더라도 멤버 변수는 남겨둬라

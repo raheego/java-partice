@@ -1,4 +1,4 @@
-package day07.opp.ex;
+package day07.oop.ex;
 
 public class Point {
 	private int x, y;
