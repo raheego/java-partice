@@ -27,7 +27,7 @@ public class QuizFor01 {
 }
 */
 
-package day03_control.quiz;
+package day03;
 
 public class QuizFor01 {
 	public static void main(String[] args) {

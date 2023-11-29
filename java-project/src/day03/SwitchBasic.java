@@ -1,4 +1,4 @@
-  package day03_control.quiz;
+  package day03;
 
 import java.util.Scanner;
 

@@ -42,7 +42,7 @@ public class ex01_exception {
 	}
 }*/
 
-package day03_control.quiz;
+package day03;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
