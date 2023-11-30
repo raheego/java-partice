@@ -21,7 +21,7 @@ public class QuizScore {
  	총점 278 평균 92.67
 */
 
-package ex01.oprator;
+package day01.oprator;
 
 import java.util.Scanner;
 

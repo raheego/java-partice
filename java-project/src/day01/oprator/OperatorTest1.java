@@ -1,4 +1,4 @@
-package ex01.oprator;
+package day01.oprator;
 /*
  문제 월급 단위로 계산하기
  pay = 567890;

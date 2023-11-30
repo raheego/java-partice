@@ -1,7 +1,5 @@
 package day07.oop;
 
-import day07.ex.Point;
-
 class Point { 
 	//int x, y; // 멤버변수 default 접근지정자 , int 0 초기화 , double&float = 0.0; String = null 초기화
 	private int x, y;
