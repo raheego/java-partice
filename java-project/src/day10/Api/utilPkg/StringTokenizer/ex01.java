@@ -1,8 +1,8 @@
-package day10.Api.utilPkg.ex01;
+package day10.Api.utilPkg.StringTokenizer;
 
 import java.util.StringTokenizer;
 
-public class StringTokenizerEx1 {
+public class ex01 {
 	public static void main(String[] args) {
 //		StringTokenizer st = new StringTokenizer("this is a test");
 		StringTokenizer st = new StringTokenizer("김연아/박태환/강감찬/이순신/","/");

@@ -1,8 +1,8 @@
-package day10.Api.utilPkg.ex01;
+package day10.Api.utilPkg.StringTokenizer;
 
 import java.util.StringTokenizer;
 
-public class StringTokenizerEx2 {
+public class ex02 {
 	public static void main(String[] args) {
 		// 두세가지 구분자가 들어갈 수 있다.
 		StringTokenizer token = new StringTokenizer("사과 = 5| 초코 = 3 | 샴페인 = 1","=|", true);

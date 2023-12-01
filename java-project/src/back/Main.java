@@ -1,38 +1,22 @@
 package back;
 
 import java.util.Scanner;
+import java.io.FileInputStream;
 
 public class Main {
-
 	public static void main(String[] args) throws Exception {
+		System.setIn(new FileInputStream("C:\\Users\\Playdata\\Desktop\\@java\\input/input.txt"));
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int m = sc.nextInt();
-
-		int[][] arr1 = new int[n][m];
-		int[][] arr2 = new int[n][m];
-
-		// arr1
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				arr1[i][j] = sc.nextInt();
-			}
+	
+		int[] arr = new int[31];
+		
+		for(int i = 1; i < 29; i ++ ) {
+			int n = sc.nextInt();
+			arr[n] = 1;
 		}
-
-		// arr2
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				arr2[i][j] = sc.nextInt();
-			}
+		
+		for(int i = 1; i < arr.length; i ++ ) {
+			if ( arr[i] != 1 ) System.out.print(i);
 		}
-
-		// arr1+arr2
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				System.out.print(arr1[i][j] + arr2[i][j] + " ");
-			}
-			System.out.println();
-		}
-
 	}
 }
