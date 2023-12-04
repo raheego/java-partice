@@ -11,5 +11,5 @@ public class Bus extends Trans{
 	public void stop() {
 		System.out.println("운행을 멈춥니다.");
 	}
-
+ 
 }

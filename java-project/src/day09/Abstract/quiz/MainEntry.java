@@ -7,7 +7,7 @@ public class MainEntry {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("출근 시간은 몇시인가요 7시부터 3시 사이 말씀주세요.");
 		
-		int time = sc.nextInt();
+		int time = sc.nextInt(); 
 		String ask = sc.next();
 		
 		switch (time) {
