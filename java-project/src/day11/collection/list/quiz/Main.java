@@ -17,7 +17,7 @@ public class Main{
 		ArrayList<Customers> list = new ArrayList<>();
 		Scanner sc = new Scanner(System.in);
 		int answer = sc.nextInt();
-		System.out.println("선택하세요 : 1.add , 2. delete, 3.list print");
+		System.out.println("선택하세요 : 1.add , 2.delete, 3.list print");
 		
 		switch(answer) {
 			case 1:
@@ -26,11 +26,7 @@ public class Main{
 			default: 
 				break;
 		}
-		
-	
 	}
-
-	
 }
 /*
  	문제 customers class
