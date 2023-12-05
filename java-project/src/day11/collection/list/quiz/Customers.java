@@ -9,7 +9,7 @@ class Customers {
 	public Customers() {
 		
 	}
-	public Customers(String name, String address, String tel) {
+	public Customers(String name, String address, String tel) { //생성자함수 명시적 호출 불가능 - 1회호출됨
 		this.name = name;
 		this.address = address;
 		this.tel = tel;
@@ -44,7 +44,7 @@ class Customers {
 	//사용자 정의 함수 
 	public void add() {
 		
-	}
+	} 
 	public void addCustomer() {
 		Scanner sc = new Scanner(System.in);
         System.out.println("고객 정보를 입력하세요.");
