@@ -1,20 +1,17 @@
-package back;
 
-//import java.io.FileInputStream;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) throws Exception {
-//		System.setIn(new FileInputStream("C:\\Users\\Playdata\\Desktop\\@java\\input/input.txt"));
+    public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-			int x = sc.nextInt();
-			int y = sc.nextInt();
-			int w = sc.nextInt();
-			int h = sc.nextInt();
-			
-			int minX = Math.min(x, w-x);
-			int minY = Math.min(y, h-y);
-			System.out.println(Math.min(minX, minY));
-					
-	}
+        StringBuffer sb1 = new StringBuffer( sc.next() );
+        StringBuffer sb2 = new StringBuffer( sc.next() );
+
+        int x = Integer.parseInt(sb1.reverse().toString());
+        int y = Integer.parseInt(sb2.reverse().toString());
+
+        int max = Math.max(x, y);
+
+        System.out.println(max);
+    }
 }
