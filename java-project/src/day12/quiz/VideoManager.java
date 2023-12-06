@@ -46,10 +46,13 @@ public class VideoManager extends Video {
 
         while ( it.hasNext() ) {
 			Map.Entry entry = (Map.Entry) it.next();
+			
 			int key = (int) entry.getKey();
 			Video value = (Video) entry.getValue();
+			
 			System.out.println("Key: " + (key+1));
     		value.display(); 
+    		
     		System.out.println();
         }
     }

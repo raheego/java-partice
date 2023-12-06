@@ -4,9 +4,10 @@ public class Video {
 	protected String title;
 	protected String category;
 	protected String lend; //대여여부
-	protected String lendName;
-	protected String lendDate;
+	protected String lendName; //대여자
+	protected String lendDate; //대여날짜
 	
+	//생성자함수 default
 	public Video() {
 		
 	}
