@@ -4,18 +4,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        int[] coin = {25, 10, 5, 1};
 
-        String s = sc.next();
-        int i = sc.nextInt();
+        while ( t > 0 ) {
+            int num  = sc.nextInt();
+            int[] arr = new int[4]; // 동전4개로 계산하니깐
 
-        // indexOf를 이용하여 문자의 인덱스를 찾음
-        int index = s.indexOf(String.valueOf(i));
+            //잔돈 계산
+            for (int i = 0; i < cossin.length; i++) {
+                arr[i] = num / coin[i];
+                System.out.println(num + "," + coin[i]+"," + arr[i]);
+                num %= coin[i];
+            }
 
-        // 찾은 인덱스가 -1이면 해당 문자가 문자열에 없는 경우임
-        if (index != -1) {
-            System.out.println(s.charAt(index));
-        } else {
-            System.out.println("유효하지 않은 인덱스입니다.");
+            // 결과 출력
+            for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.println();
+            t--;
         }
     }
 }
+
