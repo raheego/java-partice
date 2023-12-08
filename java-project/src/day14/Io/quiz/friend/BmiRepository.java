@@ -60,8 +60,8 @@ public class BmiRepository extends Bmi{
         Iterator it = bmiList.entrySet().iterator();
 
         while (it.hasNext()){
-            Map.Entry bmiEntry = (Map.Entry)it.next();
-            Bmi b = (Bmi)bmiEntry.getValue();
+            Map.Entry bmiEntry = (Map.Entry)it.next(); //key value 값 다 들어 있는 entry
+            Bmi b = (Bmi)bmiEntry.getValue();	//value
             System.out.println("ID : " + bmiEntry.getKey());
             System.out.println(b);
         }

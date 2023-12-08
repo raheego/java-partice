@@ -11,6 +11,7 @@ public class QuizEx1 {
 
 			System.out.print("Integer data input = ");			int su1 = Integer.parseInt(br.readLine());
 			System.out.print("Integer data input = ");			int su2 = Integer.parseInt(br.readLine());
+			
 			// 연산자 입력은 2가지 방법 있음.  1) String 처리 , 2) Charator 처리 
 			System.out.print("Operator(+,-,*,/)  input = ");	
 			String op = br.readLine();    //  char op =  br.readLine().charAt(0);

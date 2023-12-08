@@ -12,8 +12,9 @@ public class BMImanager extends BMI {
 
 	public static void main(String[] args) throws IOException {  // controller & view
 		
-		BMImanager bi = new BMImanager();
+		BMImanager bi = new BMImanager(); //인스턴스를 생성
 		Scanner sc = new Scanner(System.in);
+		
 		while (true) {
 			System.out.println("《1》고객정보추가 \t《2》고객정보출력 \t《3》고객정보 삭제 \t《4》종료");
 			switch (sc.nextInt()) {
@@ -42,6 +43,7 @@ public class BMImanager extends BMI {
 
 	private static void print() {
 		Set<Integer> set = map.keySet();
+		
 		for (Integer number : set) {
 			String name = map.get(number).name;
 			String weight = map.get(number).weight;

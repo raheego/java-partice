@@ -39,6 +39,7 @@ public class BmiManager {  // model & controller
 		bmi = (double) weight / (double) ((height / 100) * (height / 100));
 
 		System.out.println("[NOTICE] BMI를 측정중입니다.\n측정중.........");
+		
 		while (true) {
 			Thread.sleep(100);
 			System.out.print("@");
@@ -47,6 +48,7 @@ public class BmiManager {  // model & controller
 				break;
 			}
 		}
+		
 		if (bmi <= 15.0)
 			bmi_result = "체중 부족";
 		else if (bmi >= 15.1 && bmi <= 24.9)

@@ -12,6 +12,7 @@ public class MainEntry {  // view
 
 		int h_num = 1000;
 		Vector<BmiManager> b_list = new Vector<BmiManager>();     // vector 이용
+		
 		BmiManager bm = null;
 		Scanner s = new Scanner(System.in);
 		OutputStream os = new FileOutputStream("BMI_LIST2.txt");  // file save
