@@ -1,4 +1,4 @@
-package day14.Io.file.random.quiz.friends;
+package day14.Io.quiz.friend;
 
 import java.io.IOException;
 import java.util.Scanner;
