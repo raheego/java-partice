@@ -9,7 +9,7 @@ import java.util.Scanner;
 	과제4] 3개 정수 입력 받아서 큰 순으로 출력하기
 */
 
-public class day04 {
+public class Day04 {
 	public static void main(String[] args) {
 		int sum1 = 0; 
 		for( int i=1; i<=6; i++ ) {
@@ -17,7 +17,7 @@ public class day04 {
 				sum1 += j;
 			}
 		}	
-		System.out.print(sum);
+		System.out.print(sum1);
 		
 	   int sum2 = 0;
         for (int i = 1; i <= 10; i++) {

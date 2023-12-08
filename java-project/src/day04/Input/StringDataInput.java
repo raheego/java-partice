@@ -1,4 +1,4 @@
-package While;
+package day04.Input;
 
 public class StringDataInput {
 	public static void main(String[] args) {

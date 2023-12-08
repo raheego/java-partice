@@ -11,7 +11,7 @@ public class FileBufferedWriterEx {
 		 String str, file;
         Date date = new Date();
         str = "파일 생성 시간 \r\n" + date + "\r\n";
-​
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("파일 이름 입력 요망 : ");
         file = br.readLine();
@@ -20,10 +20,10 @@ public class FileBufferedWriterEx {
 
         FileWriter fw = new FileWriter(file);
         BufferedWriter bw = new BufferedWriter(fw);
-​
+
         bw.write(str);
         bw.close();
         System.out.println(file + "파일을 성공적으로 저장 했습니다.");
-	​
+
 	}
 }

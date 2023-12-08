@@ -6,7 +6,7 @@ public class step3_Socre_WhileLoop {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); // 객체 생성, 메모리에 할당, 생성자 함수 자동 호출
 
-		String name = null;
+		//String name = null;
 		String flag = "";
 		
 		int kor, eng, com = 0;
@@ -53,7 +53,7 @@ public class step3_Socre_WhileLoop {
 			char yesno = new Scanner(System.in).next().charAt(0);
 			if( yesno == 'n' || yesno == 'N' ) break; //탈출구문 
 			
-			flag = sc.next().charAt(0); // String
+			//flag = sc.next().charAt(0); // String
 			
 //			if( flag.equrs("n") || flag.equals("N") ) break; 
 //			if(flag.equalsIgnoreCase("n")) break;

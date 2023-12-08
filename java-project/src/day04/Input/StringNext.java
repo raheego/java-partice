@@ -1,4 +1,4 @@
-package While;
+package day04.Input;
 
 import java.util.Scanner;
 

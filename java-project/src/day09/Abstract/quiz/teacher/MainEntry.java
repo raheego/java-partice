@@ -5,7 +5,8 @@ public class MainEntry {
 		
 		Trans[]  t = new Trans[4];
 		
-		Object[] name = { new BiClycle(), new Bus(), new Subway(), new Plain() };
+//		Object[] name = { new BiClycle(), new Bus(), new Subway(), new Plain() };
+		Object[] name = { new Subway()};
 		
 		String[] str = { "자전거", "버스", "지하철", "비행기" };  
 		

@@ -42,7 +42,7 @@ public class SwitchMain {
 	public static void main(String[] args) {
 		System.out.println("도시를 선택하세요(s,d,b,j) = ");
 		
-		// char ch = new Scanner(System.in).next().charAt(0); 
+		 char ch = new Scanner(System.in).next().charAt(0); 
 		
 		switch (ch) { // 조건 - 문자형, 정수형 * 정수형(long형) 실수형 안됨
 			case 's':

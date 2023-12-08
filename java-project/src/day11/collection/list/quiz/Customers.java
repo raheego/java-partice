@@ -56,7 +56,7 @@ class Customers {
         String tel = sc.next();
 
         Customers customer = new Customers(name, address, tel);
-        list.add(customer);
+       // list.add(customer);
         System.out.println("고객이 추가되었습니다.");
     }
 }

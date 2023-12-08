@@ -17,27 +17,25 @@ public class ex01_1 {
         
         System.out.println("+ - * % 을 선택하세요");
         String calc = br.readLine();
-        
-        while(true) {
-	        switch (calc) {
-	            case "+":
-	                result = x + y;
-	                break;
-	            case "-":
-	                result = x - y;
-	                break;
-	            case "%":
-	                result = x % y;
-	                break;
-	            case "*":
-	                result = x * y;
-	                break;
-	            default:
-	            	System.out.println("연산자를 입력하세요");
-	                break;
-	        }
+    
+        switch (calc) {
+            case "+":
+                result = x + y;
+                break;
+            case "-":
+                result = x - y;
+                break;
+            case "%":
+                result = x % y;
+                break;
+            case "*":
+                result = x * y;
+                break;
+            default:
+            	System.out.println("연산자를 입력하세요");
+                break;
         }
-
         System.out.println("결과: " + result);
+    
     }
 }

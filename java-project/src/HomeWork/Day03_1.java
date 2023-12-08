@@ -1,6 +1,6 @@
-package day03_control.quiz;
+package HomeWork;
 
-public class HomeWork {
+public class Day03_1 {
 	
 	public static void main(String[] args) {
 /*

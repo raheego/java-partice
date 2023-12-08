@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ex01_finally {
-	public static void main(String[] args) 
+	public static void main(String[] args) {
 					// throws ArithmeticException, InputMismatchException { // 예외처리 위임
 					// throws Exception { // 예외처리 위임
 					

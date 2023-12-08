@@ -21,7 +21,7 @@ public class Main{
 		
 		switch(answer) {
 			case 1:
-				addCustomer();
+				//addCustomer();
 				break;
 			default: 
 				break;

@@ -12,8 +12,8 @@ public class ex01_throwMain {
 			x = new Scanner(System.in).nextInt();
 			y = new Scanner(System.in).nextInt();
 			
-			result = x / y; // 문제 발생 소지가 있는 코드
-			System.out.println(reuslt);
+			//result = x / y; // 문제 발생 소지가 있는 코드
+			System.out.println(result);
 			
 		} catch (ArithmeticException e) {	
 			System.out.println("ArithmeticException");

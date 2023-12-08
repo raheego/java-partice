@@ -6,11 +6,11 @@
 	
 	4+5 = 9
 */
-package day03_control.quiz;
+package HomeWork;
 
 import java.util.Scanner;
 
-public class HomeWork2 {
+public class Day03_2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
