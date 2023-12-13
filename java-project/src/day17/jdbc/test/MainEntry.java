@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class MainEntry {
+public class MainEntry { 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		// 1. Driver load .. exception 예외 발생
 		Class.forName("org.mariadb.jdbc.Driver");

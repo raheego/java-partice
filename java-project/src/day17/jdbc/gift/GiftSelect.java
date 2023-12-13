@@ -1,8 +1,8 @@
-package day17.jdbc.giftSelect;
+package day17.jdbc.gift;
 
 import java.sql.*;
 
-public interface MainEntry { //select
+public interface GiftSelect { //select
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		// 1. Driver load .. exception 예외 발생
 		Class.forName("org.mariadb.jdbc.Driver"); //예외발생
@@ -12,14 +12,14 @@ public interface MainEntry { //select
 					//driver:IP:portNumber/db명
 		String url = "jdbc:mariadb://localhost:3306/encore";
 		String uid = "root";
-		String pwd = "maria";
+		String pwd = "maria"; 
 		
 		Connection conn = DriverManager.getConnection(url,uid,pwd); //예외발생
 		System.out.println("conncection success");
 		
 		
 		//3. 사용 (DML 명령어) - select
-		Statement stmt = conn.createStatement();
+		Statement stmt = conn.createStatement(); 
 		ResultSet rs = stmt.executeQuery("SELECT * FROM GIFT"); //
 		
 		System.out.println("상품번호/col2/col3/ .... ");
@@ -33,10 +33,11 @@ public interface MainEntry { //select
 		}
 		
 		//4. close (자원반환)
-		rs.close();
+		rs.close(); 
 		stmt.close();
 		conn.close();
 		
 		
 	}
 }
+// SQL Query 구문,HTML Tag는 자바에서 문자열 취급
