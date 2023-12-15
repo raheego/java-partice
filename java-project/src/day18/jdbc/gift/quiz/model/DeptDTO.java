@@ -1,6 +1,6 @@
 package day18.jdbc.gift.quiz.model;
 
-public class DTO {
+public class DeptDTO {
 	public final String ClassName = "Dept";
 	
 	private int deptno;

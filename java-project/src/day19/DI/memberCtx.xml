@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="vo" class="ex05.DI.MemberDTO" c:age="33" c:message="옵셤이용한거야" c:name="박태환"></bean>
+	<bean id="dao" class="ex05.DI.MemberDAO" p:dto-ref="vo"></bean>
+
+
+<!-- 	 id는 객체생성과 같다 
+	<bean id="vo" class="ex05.DI.MemberDTO">
+		값을 전달
+		<constructor-arg value="son" />
+		<constructor-arg value="32" />
+		<constructor-arg value="hello" />
+	</bean>
+
+	<bean id="dao" class="ex05.DI.MemberDAO">
+		<constructor-arg ref="vo"/> 위 코드 bean id='vo'를 참고. meberDTO 의 매개변수로 감
+		<property name="dto" ref="vo"/> 
+	</bean>
+		constructor : 생성자 함수 
+		property : 매개변수 
+	-->
+		
+		
+
+</beans>

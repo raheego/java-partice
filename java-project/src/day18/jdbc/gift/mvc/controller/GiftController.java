@@ -17,7 +17,7 @@ public class GiftController { // Controller
 
 	// 연결, 삽입, 삭제, 수정, 검색,.....
 	static Scanner sc = new Scanner(System.in);
-	
+
 	static Statement stmt = null;
 	static ResultSet rs = null;
 	static Connection conn = null;
@@ -25,15 +25,14 @@ public class GiftController { // Controller
 
 	// connect
 	public static void connect() {
-	    try {
-	        conn = ConnectionHelper.getConnection("mariadb");
-	        stmt = conn.createStatement();
-	        conn.setAutoCommit(false); // 자동커밋 끄기
-	    } catch (Exception e) {
-	        e.printStackTrace();
-	    }
+		try {
+			conn = ConnectionHelper.getConnection("mariadb");
+			stmt = conn.createStatement();
+			conn.setAutoCommit(false); // 자동커밋 끄기
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
-
 
 	// close
 	public static void close() {
@@ -50,7 +49,7 @@ public class GiftController { // Controller
 	// menu
 	public static void menu() throws SQLException { // 예외처리 위임
 		GiftDTO dto = new GiftDTO();
-		
+
 		while (true) {
 			System.out.println();
 
